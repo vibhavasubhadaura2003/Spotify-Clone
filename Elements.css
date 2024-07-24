@@ -1,0 +1,47 @@
+.SingerCard{
+    padding: 10px;
+}
+.SingerCard img{
+    width: 140px;
+    border-radius: 150px;
+}
+.SingerCard h2{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.SingerCard h3{
+
+    font-size: 13px;
+    color: #a7a7a7;
+}
+
+.SubHeading{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.ShowAll{
+    position: absolute;
+    right: 8px;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.PopularAlbumCard{
+    padding: 10px;
+    width: 150px;
+    height: 200px;
+}
+.PopularAlbumCard img{
+    width: 140px;
+    border-radius: 10px;
+}
+.PopularAlbumCard h2{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.PopularAlbumCard h3{
+    font-size: 13px;
+    color: #a7a7a7;
+}

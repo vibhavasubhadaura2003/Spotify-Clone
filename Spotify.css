@@ -1,0 +1,246 @@
+body{
+    background-color: black;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+}
+.leftTop{
+    width: 21.5vw;
+    height:20vh;
+    padding: 10px;
+    margin: 8px;
+}
+.leftTop ul li{
+    gap: 16px;
+    padding: 10px;
+}
+.leftTop ul li img{
+    width: 25px;
+    
+}
+.leftTop ul li span{
+    padding:3px;
+    
+}
+.Spotify-logo img{
+    width: 80px;
+    padding: 10px;
+}
+.leftBottom{
+    width: 21.5vw;
+    height: 70vh;
+    padding: 10px;
+    margin: 8px;
+}
+.CreatePlaylist{
+    padding: 5px;
+    margin: 18px 2px;
+    width: 19.5vw;
+    height: 25vh;
+    border-radius: 10px;
+    background-color: #242424;
+}
+.Playlist-Song{
+    padding: 2px;
+    margin: 8px;
+    border-radius: 5px;
+    position: relative;
+    background-color: #424141;
+}
+.song-name{
+    margin: 7px;
+    width: 11.5vw;
+}
+.Library-Logo img:first-child{
+    width: 25px;
+    padding: 10px;
+}
+.Library-Logo img:last-child{
+    width: 15px;
+    padding: 15px;
+    position: absolute;
+    right: 0px;
+}
+.Library-Logo span {
+    padding: 10px;
+}
+.footer{
+    width: 19vw;
+    padding: 8px;
+    /* position: absolute;
+    bottom: 72px; */
+}
+.footerfirstLine{
+    gap:5px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer a span{
+    color: #a7a7a7;
+    padding: 10px;
+    gap:5px;
+}
+.Language{
+    display: inline-block;
+    /* position: absolute;
+    bottom: 20px; */
+    left: 20px;
+    margin: 10px;
+    padding:6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border: 1px solid #a7a7a7;
+}
+.Language img{
+    width: 17px;
+}.Language span{
+    padding: 3px;
+}
+.right{
+    margin: 0;
+    height: 100vh;
+    position: relative;
+}
+.header{
+    padding: 8px;
+    margin: 8px;
+    margin-left: 1px;
+    margin-bottom: 0px;
+    width: 74.5vw;
+    height: 6.4vh;
+    background-color: #090909;
+}
+.navigation{
+    padding: 2px;
+    margin-left: 5px;
+    
+}
+.navigation div{
+    padding: 8px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.navigation img{
+    width: 15px;
+}
+.buttons{
+    position: absolute;
+    right: 0px;
+    margin-right: 25px;
+}
+.buttons button{
+    padding: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.buttons button:first-child{
+    border: none;
+    color: #a7a7a7;
+    background-color: #090909;
+}
+.buttons button:last-child{
+    border-radius: 25px;
+}
+.rightBottom{
+    padding: 8px;
+    margin: 8px;
+    margin-left: 1px;
+    margin-bottom: 0px;
+    width: 74.5vw;
+    height: 74.8vh;
+    margin-top: 0px;
+}
+.SingerCardContainer{
+    margin: 10px;
+}
+.PopularAlbumsContainer{
+    margin: 10px;
+}
+.right-footer{
+    padding: 8px;
+    margin-top: 80px;
+}
+.right-footer a{
+    text-decoration: none;
+}
+.right-footer a span{
+    color: #a7a7a7;
+    padding: 10px;
+}
+.right-footer-box2_Container{
+    position: absolute;
+    right: 5px;
+}
+.right-footer-box{
+    width: 180px;
+    margin: 4px;
+    padding: 10px;
+}
+.right-footer-box div{
+    margin-top: 10px;
+}
+.right-footer-box2{
+    padding: 15px;
+    background-color: #292929;
+    margin: 5px;
+    height: 15px;
+    width: 15px;
+    border-radius: 30px;
+}
+.right-footer-box2 img{
+    width: 15px;
+}
+.SpotifyAB{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+.SpotifyAB span{
+    color: #a7a7a7;
+}
+.bottom-bar{
+    background-color: #000000;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 1px;
+    margin-bottom: 0px;
+    width: 74.6vw;
+    height: 10vh;
+    margin-top: 0px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.song-bar{
+    border-radius: 30px;
+    width: 300px;
+    height: 150px;
+}
+
+.play-pause-Container{
+    background-color: white;
+    padding: 8px;
+    height: 18px;
+    border-radius: 20px;
+}
+.song-info{
+    position: absolute;
+    bottom: 170px;
+    left: 30px;
+    width: 250px;
+}
+.song-name-1{
+    font-size: 20px;
+}
+.google-ads{
+    margin: 5px 300px;
+}

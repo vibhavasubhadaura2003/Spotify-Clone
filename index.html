@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="Spotify.css">
+    <link rel="stylesheet" href="Utility.css">
+    <link rel="stylesheet" href="Elements.css">
+</head>
+<body>
+    <div class="container flex"><!-- box covering whole page -->
+<!-- Left Side -->
+        <div class="left"><!-- box of lef portion of the page -->
+    <!-- Left Top -->
+            <div class="leftTop  bgDark font1 borderRadius text-size1">
+                <div class="Spotify-logo flex invert">
+                    <img src="Spotifylogo.svg" alt="Spotify"></div>
+                <ul>
+                    <li class="flex">
+                        <img class="invert" src="Homelogo.svg" alt="Home"><span>Home</span></li>
+                    <li class="flex">
+                        <img class="invert" src="SearchLogo.svg" alt="Search"><span>Search</span></li>
+                </ul>
+            </div>
+    <!-- Left Bottom -->
+            <div class="leftBottom Flow-Auto bgDark font1 borderRadius text-size1 Po-Relative">
+                <div class="Library-Logo flex Po-Relative">
+                    <img class="invert" src="LibrayLogo.svg" alt="Library-Logo">
+                    <span>Your Library</span>
+                    <img class="invert" src="Pluslogo.svg" alt="Pluslogo">
+                </div>
+
+                <div class="CreatePlaylist font3 Flow-Auto">
+                    <!-- to be filled by JS -->
+                </div>
+                <div class="song-info ">
+                     <!-- to be filled by JS -->
+                </div>
+                <iframe class="song-bar" name="frame1">
+                     <!-- to be filled by link -->
+                </iframe>
+                <div class="footer">
+                    <div class="footerFirstLine flex justify-left">
+                        <div><a href="https://www.spotify.com/in-en/legal/end-user-agreement/"><span class="text-size2">Legal</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/safetyandprivacy/reporting-content"><span class="text-size2">Saftey & Privacy Center</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span class="text-size2">Privacy Policy</span></a></div>
+                    </div>
+                    
+                    <div class="footerSecondLine flex">
+                        <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span class="text-size2">Cookies</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span class="text-size2">About Ads</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/accessibility"><span class="text-size2">Assessibility</span></a></div>
+                    </div>
+                    <div class="footerThirdLine ">
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span class="text-size2">Cookies</span></a>
+                    </div>
+                </div>
+                <div class="Language">
+                    <img class="invert" src="InternetLogo.svg" alt="image not found">
+                    <span>English</span>
+                </div>
+                
+            </div>
+        </div>
+<!-- Right Side -->
+        <div class="right font1 text-size1">
+    <!-- Right Top -->
+            <div class="header flex borderRadius Po-Relative">
+                <div class="navigation flex">
+                    <div class="bgBlack"><img class="invert" src="LeftArrow.svg" alt="image not found"></div>
+                    <div class="bgBlack"><img class="invert" src="RightArrow.svg" alt="image not found"></div>
+                </div>
+                <div class="buttons">
+                    <button class="font1 text-size1">Sign up</button>
+                    <button class="font1 text-size1">Log in</button>
+                </div>
+            </div>
+    <!-- Right Bottom -->
+            <div class="rightBottom font1 bgDark borderRadius Flow-Auto">
+        <!-- Popular Artist -->
+                <div class="popularArists">
+            <!-- Album Header -->
+                    <div class="Album-Header flex Po-Relative">
+                        <h1 class="SubHeading">Popular artists</h1>
+                        <button class="ShowAll bgDark">show all</button>
+                    </div>
+            <!-- Singers Card -->
+                    <div class="SingerCardContainer flex">
+                <!-- Pritam -->
+                        <div class="Pritam SingerCard">
+                            <img src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca" alt="image not found">
+                            <h2>Pritam</h2>
+                            <h3>Artist</h3>
+                        </div>
+                <!-- Arijit Singh -->
+                        <div class="Arijit SingerCard">
+                            <img src="https://img.wynk.in/unsafe/200x200/filters:no_upscale():strip_exif():format(jpg)/http://s3.ap-south-1.amazonaws.com/discovery-prod-zion/zion/1696452544852-Arijit_Singh.png" alt="image not found">
+                            <h2>Arijit Singh</h2>
+                            <h3>Artist</h3>
+                        </div>
+                <!-- A.R. Rahaman -->
+                        <div class="ARRahaman SingerCard">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROrCj-tIOm-ZeElYA8z-PNol_YszpRmk4INw&s" alt="image not found">
+                            <h2>A.R. Rahaman</h2>
+                            <h3>Artist</h3>
+                        </div>
+                <!-- Anirudh -->
+                        <div class="Anirudh SingerCard">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1nRKcRVPqjhPZ1PWPIzViiXB-k2Tk5Zw7ww&s" alt="image not found">
+                            <h2>Anirudh...</h2>
+                            <h3>Artist</h3>
+                        </div>
+                <!-- Vishal Mishra -->
+                        <div class="VishalMishra SingerCard">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT4r8cYyYIV58Aw2SX4TDb6agyIKY2SZo7ww&s" alt="image not found">
+                            <h2>Vishal Mishra</h2>
+                            <h3>Artist</h3>
+                        </div>
+                <!-- Sachin-Jigar -->
+                        <div class="Sachin-Jigar SingerCard">
+                            <img src="https://i.scdn.co/image/ab6761610000e5eba038d7d87f8577bbb9686bd3" alt="image not found">
+                            <h2>Sachin-Jigar</h2>
+                            <h3>Artist</h3>
+                        </div>
+                <!-- Badshah -->
+                        <div class="Badshah SingerCard">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Sxo8-RN-PF87dC_FkVmsB0jMv_G86c-PVg&s" alt="image not found">
+                            <h2>Badshah</h2>
+                            <h3>Artist</h3>
+                        </div>       
+                    </div>
+                </div>
+        <!-- Popular Album -->
+                <div class="PopularAlbums Album-Header">
+                    <div class="Album-Header flex Po-Relative">
+                        <h1 class="SubHeading">Popular albums</h1>
+                        <button class="ShowAll bgDark">show all</button>
+                    </div>
+            <!-- Popular Album Cards -->
+                    <div class="PopularAlbumContainer flex">
+                <!-- love hotel -->
+                        <div class="loveHotel PopularAlbumCard">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2731e63de6489803c2b39e7f8e5" alt="image not found">
+                            <h2>love hotel</h2>
+                            <h3>leftOvermax</h3>
+                        </div>
+                <!-- Ek tha Raja -->
+                        <div class="EkThaRaja PopularAlbumCard">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2739bb2d30b01ac2cada8a8ad03" alt="image not found">
+                            <h2>Ek tha Raja</h2>
+                            <h3>Badshah</h3>
+                        </div>
+                <!-- ANIMAL -->
+                        <div class="Animal PopularAlbumCard">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2735f3ede47954a93aa03efe5f9" alt="image not found">
+                            <h2>ANIMAL</h2>
+                            <div class="">
+                                <h3 class="inLine">Manan Bharadwaj</h3>
+                                <h3 class="inLine">,</h3>
+                                <h3 class="inLine">Vishal Mishra</h3>
+                                <h3 class="inLine">,</h3>
+                                <h3 class="inLine">Jaani</h3>
+                            </div>
+                        </div>
+                <!-- Moosetape -->
+                        <div class="Moosetape PopularAlbumCard">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2731d1cc2e40d533d7bcebf5dae" alt="image not found">
+                            <h2>Moosetape</h2>
+                            <h3>Sidu Moose Wala</h3>
+                        </div>
+                <!-- Aashiqui 2 -->
+                        <div class="Aashiqui2 PopularAlbumCard">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2736404721c1943d5069f0805f3" alt="image not found">
+                            <h2>Aashiqui 2</h2>
+                            <div class="">
+                                <h3 class="inLine">Mithoon</h3>
+                                <h3 class="inLine">,</h3>
+                                <h3 class="inLine">Ankit Tiwari</h3>
+                                <h3 class="inLine">,</h3>
+                                <h3 class="inLine">Jeet Gannguli</h3>
+                            </div>
+                        </div>
+                <!-- Aavesham... -->
+                        <div class="Aavesham PopularAlbumCard">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2731d93bb16bf3025587d001f45" alt="image not found">
+                            <h2>Aavesham...</h2>
+                            <div class="">
+                                <h3 class="inLine">Sushin Shyam</h3>
+                                <h3 class="inLine">,</h3>
+                                <h3 class="inLine">Vinayak Sasikumar</h3>
+                            </div>
+                        </div>
+                <!-- Still Rollen -->
+                        <div class="StillRollen PopularAlbumCard">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2731a8c4618eda885a406958dd0" alt="image not found">
+                            <h2>Still Rollen</h2>
+                            <h3>Shubh</h3>
+                        </div>
+                    </div>
+                </div>
+        <!-- Featured Charts -->
+                <div class="Charts Album-Header">
+                    <div class="Chart-Heading flex Po-Relative">
+                        <h1 class="SubHeading">Featured Charts</h1>
+                    </div>
+            <!-- Featured Chart Cards -->
+                    <div class="ChartContainer flex">
+                <!-- Top Songs-Global -->
+                        <div class="TopSongs PopularAlbumCard">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg" alt="image not found">
+                            <h2>Top Songs - Global</h2>
+                            <h3>Your weekly update of the most played tracks right now - Global.</h3>
+                        </div>
+                <!-- Top Songs - USA -->
+                        <div class="TopSongsUSA PopularAlbumCard">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg" alt="image not found">
+                            <h2>Top Songs - USA</h2>
+                            <h3>Your weekly update of the most played tracks right now - USA.</h3>
+                        </div>
+                <!-- Top 50 - Global -->
+                        <div class="Top50Global PopularAlbumCard">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg" alt="image not found">
+                            <h2>Top 50 - Global</h2>
+                            <h3>Your daily update of the most played tracks right now - Global..</h3>
+                        </div>
+                <!-- Top 50 - USA -->
+                        <div class="Top50USA PopularAlbumCard">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg" alt="image not found">
+                            <h2>Top 50 - USA</h2>
+                            <h3>Your daily update of the most played tracks right now - USA.</h3>
+                        </div>
+                <!-- Viral 50 - Global -->
+                        <div class="Viral50Global PopularAlbumCard">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg" alt="image not found">
+                            <h2>Viral 50 - Global</h2>
+                            <h3>Your daily update of the most viral tracks right now - Global.</h3>
+                        </div>
+                <!-- Viral 50 - USA -->
+                        <div class="Viral50USA PopularAlbumCard">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg" alt="image not found">
+                            <h2>Viral 50 - USA</h2>
+                            <h3>Your daily update of the most viral tracks right now - USA.</h3>
+                        </div>
+                    </div>
+                </div>
+        <!-- Right Footer -->
+                <div class="right-footer font2 flex Po-Relative">
+            <!-- Company -->
+                    <div class="Company right-footer-box">
+                        <div><h3>Company</h3></div>
+                        <div><a href="https://www.spotify.com/in-en/about-us/contact/"><span class="text-size1">About</span></a></div>
+                        <div><a href="https://www.lifeatspotify.com/"><span class="text-size1">Job</span></a></div>
+                        <div><a href="https://newsroom.spotify.com/"><span class="text-size1">For the Record</span></a></div>
+                    </div>
+            <!-- Communities -->
+                    <div class="Communities right-footer-box">
+                        <div><h3>Communities</h3></div>
+                        <div><a href="https://artists.spotify.com/home"><span class="text-size1">For Artists</span></a></div>
+                        <div><a href="https://developer.spotify.com/"><span class="text-size1">Developers</span></a></div>
+                        <div><a href="https://ads.spotify.com/en-IN/"><span class="text-size1">Advertising</span></a></div>
+                        <div><a href="https://investors.spotify.com/home/default.aspx"><span class="text-size1">Investor</span></a></div>
+                        <div><a href="https://spotifyforvendors.com/"><span class="text-size1">Vensors</span></a></div>
+                    </div>
+            <!-- Usefull Links -->
+                    <div class="UsefulLinks right-footer-box ">
+                        <div><h3>Useful links</h3></div>
+                        <div><a href="https://support.spotify.com/in-en/"><span class="text-size1">Support</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/free/"><span class="text-size1">Free Mobile App</span></a></div>
+                    </div>
+            <!-- Spotify Plans -->
+                    <div class="SpotifyPlans right-footer-box ">
+                        <div><h3>Spotify Plans</h3></div>
+                        <div><a href="https://www.spotify.com/in-en/premium/?ref=spotifycom_footer_premium_individual"><span class="text-size1">Premium Individual</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/duo/?ref=spotifycom_footer_premium_duo"><span class="text-size1">Premium Due</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/family/?ref=spotifycom_footer_premium_family"><span class="text-size1">Premium Family</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/student/?ref=spotifycom_footer_premium_student"><span class="text-size1">Premium Student</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/free/?ref=spotifycom_footer_free"><span class="text-size1">Spotify Fee</span></a></div>
+                    </div>
+            <!-- Logos -->
+                    <div class="right-footer-box2_Container flex">
+                <!-- Instagram Logo -->
+                        <div class="right-footer-box2">
+                            <img class="invert" src="InstaLogo.svg" alt="Image not found">
+                        </div>
+                <!-- Twitter Logo -->
+                        <div class="right-footer-box2">
+                            <img class="invert" src="TwitterLogo.svg" alt="Image not found">
+                        </div>
+                <!-- Facebook Logo -->
+                        <div class="right-footer-box2">
+                            <img class="invert" src="facebookLogo.svg" alt="Image not found">
+                        </div>
+                    </div>
+                </div>
+        <!-- © 2024 Spotify AB -->
+                <div class="SpotifyAB font2 Album-Header">
+                    <span>© 2024 Spotify AB</span>
+                </div>
+            </div>
+        </div>
+        <!-- Playbar -->
+        <div class="bottom-bar">
+            <img class="google-ads" src="googleads.png" alt="">
+        </div>
+    </div>
+</body>
+<script src="Spotify.js"></script>
+</html>
