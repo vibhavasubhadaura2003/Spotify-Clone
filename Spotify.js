@@ -1,5 +1,5 @@
 async function getsongs() {
-  let x = await fetch("https://vibhavasubhadaura2003.github.io/Spotify-Clone/songs/");
+  let x = await fetch("https://github.com/vibhavasubhadaura2003/Spotify-Clone/tree/main/songs");
   let recive = await x.text();
   let div1 = document.createElement("div");
   div1.innerHTML = recive;
