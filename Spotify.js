@@ -1,5 +1,5 @@
 async function getsongs() {
-  let x = await fetch("http://127.0.0.1:3000/songs/");
+  let x = await fetch("https://vibhavasubhadaura2003.github.io/Spotify-Clone/songs/");
   let recive = await x.text();
   let div1 = document.createElement("div");
   div1.innerHTML = recive;
@@ -136,5 +136,3 @@ async function main() {
 }
 main();
 
-var audio = new Audio("http://127.0.0.1:3000/songs/Afterhours%20-%20BIR.mp3");
-audio.play();
